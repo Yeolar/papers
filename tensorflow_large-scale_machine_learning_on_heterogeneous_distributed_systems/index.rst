@@ -14,10 +14,8 @@ Josh Levenberg, Dan Mané, Rajat Monga, Sherry Moore, Derek Murray, Chris Olah,
 Mike Schuster, Jonathon Shlens, Benoit Steiner, Ilya Sutskever, Kunal Talwar,
 Paul Tucker, Vincent Vanhoucke, Vijay Vasudevan, Fernanda Viégas,
 Oriol Vinyals, Pete Warden, Martin Wattenberg, Martin Wicke, Yuan Yu,
-and Xiaoqiang Zheng; Google Research [*]_
-
-.. [*] Corresponding authors: Jeffrey Dean and Rajat Monga:
-    {jeff,rajatmonga}@google.com
+and Xiaoqiang Zheng; Google Research (Corresponding authors:
+Jeffrey Dean and Rajat Monga: {jeff,rajatmonga}@google.com)
 
 Abstract
 ========
@@ -224,9 +222,9 @@ TensorFlow library.
 
 .. table:: Table 1: Example TensorFlow operation types
 
-    ==================================== =======================================
+    ==================================== =======================================================================================================
     Category                             Examples
-    ==================================== =======================================
+    ==================================== =======================================================================================================
     Element-wise mathematical operations Add, Sub, Mul, Div, Exp, Log, Greater, Less, Equal, ...
     Array operations                     Concat, Slice, Split, Constant, Rank, Shape, Shuffle, ...
     Matrix operations                    MatMul, MatrixInverse, MatrixDeterminant, ...
@@ -235,7 +233,7 @@ TensorFlow library.
     Checkpointing operations             Save, Restore
     Queue and synchronization operations Enqueue, Dequeue, MutexAcquire, MutexRelease, ...
     Control flow operations              Merge, Switch, Enter, Leave, NextIteration
-    ==================================== =======================================
+    ==================================== =======================================================================================================
 
 **Sessions**
 
